@@ -1,0 +1,80 @@
+#login-page {
+    background: url("https://scx2.b-cdn.net/gfx/news/hires/2020/1-origami.jpg");
+    background-size: cover;
+}
+
+#origami-page {
+    background-color: aliceblue ;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 85px;
+    color: #3498DB;
+    text-shadow: 3px 3px #212F3C;
+    margin-bottom: 5px;
+
+}
+
+.origami-card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px grey;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #2C3E50;
+    opacity: 85%;
+    background-color: white;
+}
+
+.origami-card:hover{
+    box-shadow: 0 4px 40px grey;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+img{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#origami-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#login{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2C3E50;
+}
+
+#create-user{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2C3E50;
+}
