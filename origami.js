@@ -26,7 +26,7 @@ function createCard(origami, origamiList){
     image.src = origami.image 
     instructions.href = origami.instructions
     instructions.target= "_blank"
-    instructions.innerText = `Instructions for making a ${origami.name}`
+    instructions.innerText = `Instructions for making a ${origami.name}
     // button.innerText = "Add to favorites"
     
     origamiCard.append(name, difficulty, image, instructions)
