@@ -30,7 +30,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #2C3E50;
-    opacity: 85%;
+    /* opacity: 85%; */
     background-color: white;
 }
 
