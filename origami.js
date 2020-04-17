@@ -19,17 +19,17 @@ function createCard(origami, origamiList){
     const difficulty = document.createElement('h3')
     const image = document.createElement('img')
     const instructions = document.createElement('a')
-    const button = document.createElement('button')
+    // const button = document.createElement('button')
 
     name.innerText = origami.name
     difficulty.innerText = `Difficulty level: ${origami.difficulty}`
     image.src = origami.image 
     instructions.href = origami.instructions
     instructions.target= "_blank"
-    instructions.innerText = `Instructions for making ${origami.name}`
-    button.innerText = "Add to favorites"
+    instructions.innerText = `Instructions for making a ${origami.name}`
+    // button.innerText = "Add to favorites"
     
-    origamiCard.append(name, difficulty, image, instructions,button)
+    origamiCard.append(name, difficulty, image, instructions)
     origamiList.append(origamiCard)
     
 }

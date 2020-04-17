@@ -30,12 +30,12 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #2C3E50;
-    opacity: 85%;
+    /* opacity: 85%; */
     background-color: white;
 }
 
 .origami-card:hover{
-    box-shadow: 0 4px 40px grey;
+    box-shadow: 0 4px 19px #1A5276;
 }
 
 h2 {
